@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #454545;
+      }
+    </style>
+  </defs>
+  <rect id="Bg" class="cls-1" y="10" width="18" height="2"/>
+  <rect id="Bg-2" data-name="Bg" class="cls-1" y="5" width="13" height="2"/>
+  <rect id="Bg-3" data-name="Bg" class="cls-1" width="22" height="2"/>
+</svg>
