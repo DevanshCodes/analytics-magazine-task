@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/analytics-magazine-task/static/css/main.ce9613ce.chunk.css",
+    "main.js": "/analytics-magazine-task/static/js/main.b4cd6ff4.chunk.js",
+    "main.js.map": "/analytics-magazine-task/static/js/main.b4cd6ff4.chunk.js.map",
+    "runtime-main.js": "/analytics-magazine-task/static/js/runtime-main.2783c998.js",
+    "runtime-main.js.map": "/analytics-magazine-task/static/js/runtime-main.2783c998.js.map",
+    "static/js/2.6dbe8acc.chunk.js": "/analytics-magazine-task/static/js/2.6dbe8acc.chunk.js",
+    "static/js/2.6dbe8acc.chunk.js.map": "/analytics-magazine-task/static/js/2.6dbe8acc.chunk.js.map",
+    "index.html": "/analytics-magazine-task/index.html",
+    "precache-manifest.9dff49f3c9d386101a18f4e62193621f.js": "/analytics-magazine-task/precache-manifest.9dff49f3c9d386101a18f4e62193621f.js",
+    "service-worker.js": "/analytics-magazine-task/service-worker.js",
+    "static/css/main.ce9613ce.chunk.css.map": "/analytics-magazine-task/static/css/main.ce9613ce.chunk.css.map",
+    "static/js/2.6dbe8acc.chunk.js.LICENSE.txt": "/analytics-magazine-task/static/js/2.6dbe8acc.chunk.js.LICENSE.txt",
+    "static/media/headerImage2.png": "/analytics-magazine-task/static/media/headerImage2.a8b9dfd1.png",
+    "static/media/logo.svg": "/analytics-magazine-task/static/media/logo.5d5d9eef.svg",
+    "static/media/navbar.scss": "/analytics-magazine-task/static/media/loupe.b2feb1c7.svg",
+    "static/media/more.svg": "/analytics-magazine-task/static/media/more.825eb1b9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2783c998.js",
+    "static/js/2.6dbe8acc.chunk.js",
+    "static/css/main.ce9613ce.chunk.css",
+    "static/js/main.b4cd6ff4.chunk.js"
+  ]
+}
