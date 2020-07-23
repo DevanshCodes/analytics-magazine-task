@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import machineLogo from "../machineLogo.png";
-import more from "../more.svg";
-import bellicon from "../bellicon.png";
-import settings from "../settings.png";
+import machineLogo from "../../machineLogo.png";
+import more from "../../more.svg";
+import bellicon from "../../bellicon.png";
+import settings from "../../settings.png";
 
 import { Nav, Form, InputGroup, NavDropdown } from "react-bootstrap";
 import Avatar from "@material-ui/core/Avatar";
