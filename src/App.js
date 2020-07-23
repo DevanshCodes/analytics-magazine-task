@@ -10,6 +10,7 @@ import Avatar from "@material-ui/core/Avatar";
 import { FiSearch } from "react-icons/fi";
 import Navbar from "./components/navbar/navbar";
 import Main from "./components/main/main";
+import RightSide from "./components/rightSide/rightSide";
 
 function App() {
   return (
@@ -20,8 +21,11 @@ function App() {
           <Col xs={2} id="sidebar-wrapper">
             <Sidebar />
           </Col>
-          <Col xs={10} id="page-content-wrapper">
+          <Col xs={7} id="page-content-wrapper">
             <Main />
+          </Col>
+          <Col xs={3}>
+            <RightSide />
           </Col>
         </Row>
       </Container>

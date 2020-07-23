@@ -1,3 +1,7 @@
+.LineChartCard {
+  width: 53vw;
+  margin: 40px 0 30px 25px;
+}
 .headerImage {
   margin: 30px 20px 0 20px;
   background: url("../../bgvector.png");
@@ -5,11 +9,16 @@
   height: 18vw;
   width: 53vw;
   background-size: 800px 250px;
-  .nav-tabs .nav-link{
-      margin-top: -10px;
-      border: none !important;
-      margin: -10px 10px 0 10px;
+
+  .nav-tabs .nav-link {
+    color: #232323;
+    border: none !important;
+    margin: -10px 20px 20px 30px;
   }
+  .nav-tabs .nav-link.active {
+    color: #fb5b77;
+  }
+
   .ontheimage {
     display: flex;
     justify-content: space-between;
@@ -18,8 +27,10 @@
     text-align: right;
     display: inline-block;
   }
-  .tabsCard{
-      margin: 30px 0 0 5px;
+  .tabsCard {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 30px 0 0 5px;
   }
   .textHeader {
     font-size: 2rem;
@@ -30,4 +41,55 @@
     align-self: center;
     display: inline-block;
   }
+}
+.headingTimeline{
+    font-weight: 700;
+    color: #fa375a;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    background-color: #feb9c5;
+}
+.heading{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+ul.timeline {
+  margin-left: 20px;
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #fa375a;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 0 0 40px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  border: 7px solid #fa375a;
+  left: 23px;
+  width: 10px;
+  height: 10px;
+  z-index: 400;
+}
+.headingTimeline {
+  margin: 10px 0 20px 30px;
+}
+.card-body {
+  padding: 1.25rem 1.25rem 0 1.25rem !important;
+}
+ul {
+  margin-bottom: 0 !important;
 }
