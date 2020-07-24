@@ -2,13 +2,40 @@
   width: 53vw;
   margin: 40px 0 30px 25px;
 }
+
+@media only screen and (max-width: 900px) {
+  .headerImage {
+    margin-left: 10px !important;
+    height: 25vw !important;
+    width: 85vw !important;
+    background-size: 350px 100px !important;
+  }
+  .tabsCard {
+    font-size: 0.40rem !important;
+    font-weight: 600;
+    margin: 5px 0 0 0px !important;
+  }
+  .headerImage2 {
+    margin-left: 60px;
+    .image {
+      height: 17vw !important;
+    }
+  }
+  .LineChartCard {
+    width: 80vw;
+    margin: 70px 0 30px 25px;
+  }  
+  .LineChartCardBody{
+    height: 50vw;
+  }
+}
 .headerImage {
   margin: 30px 20px 0 20px;
   background: url("../../bgvector.png");
   background-repeat: no-repeat;
   height: 18vw;
-  width: 53vw;
-  background-size: 800px 250px;
+  width: 55vw;
+  background-size: 930px 300px;
 
   .nav-tabs .nav-link {
     color: #232323;
@@ -21,11 +48,12 @@
 
   .ontheimage {
     display: flex;
-    justify-content: space-between;
   }
   .headerImage2 {
-    text-align: right;
-    display: inline-block;
+    margin-left: 60px;
+    .image {
+      height: 14vw;
+    }
   }
   .tabsCard {
     font-size: 1rem;
@@ -42,16 +70,16 @@
     display: inline-block;
   }
 }
-.headingTimeline{
-    font-weight: 700;
-    color: #fa375a;
-    padding: 0.75rem 1.25rem;
-    border-radius: 4px;
-    background-color: #feb9c5;
+.headingTimeline {
+  font-weight: 700;
+  color: #fa375a;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+  background-color: #feb9c5;
 }
-.heading{
-    font-weight: 700;
-    margin-bottom: 10px;
+.heading {
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 ul.timeline {
   margin-left: 20px;

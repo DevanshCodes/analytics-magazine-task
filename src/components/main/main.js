@@ -18,7 +18,7 @@ class Main extends Component {
           <div className="ontheimage">
             <div className="textHeader">Lorem Ipsum</div>
             <div className="headerImage2">
-              <img src={headerImage2}></img>
+              <img src={headerImage2} className="image"></img>
             </div>
           </div>
           <div className="tabsCard">
@@ -35,7 +35,7 @@ class Main extends Component {
           </div>
         </div>
         <Card className="LineChartCard">
-          <Card.Body>
+          <Card.Body className="lineChartCardBody">
             <Line
               data={{
                 labels: [
@@ -66,6 +66,8 @@ class Main extends Component {
               height={1}
               options={{
                 title: {
+                  responsive: true,
+                  maintainAspectRatio : false,
                   display: "Random Title",
                   text: "Largest Cities In " + "India",
                   fontSize: 18,

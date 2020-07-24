@@ -20,7 +20,7 @@ class Navbar extends Component {
       <Nav
         activeKey="/home"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-        className="navreact"
+        className="navreact navbar-expand-lg"
       >
         <Nav.Item>
           <img src={machineLogo} className="App-logo" alt="logo" />
@@ -37,7 +37,7 @@ class Navbar extends Component {
             placeholder="Type Here for Search"
           />
         </Nav.Item>
-        <Nav.Item>
+        <Nav.Item className="collapse navbar-collapse">
           <div className="users">
             <div className="user">
               <Avatar className="avatar">R</Avatar>
@@ -49,10 +49,10 @@ class Navbar extends Component {
             </NavDropdown>
           </div>
         </Nav.Item>
-        <Nav.Item>
+        <Nav.Item className="collapse navbar-collapse">
           <img src={bellicon} className="bellicon" alt="logo" />
         </Nav.Item>
-        <Nav.Item>
+        <Nav.Item  className="collapse navbar-collapse">
           <img src={settings} className="bellicon" alt="logo" />
         </Nav.Item>
       </Nav>

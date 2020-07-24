@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Container fluid>
         <Row>
-          <Col xs={2} id="sidebar-wrapper">
+          <Col xs={2} id="sidebar-wrapper" className="sidebar">
             <Sidebar />
           </Col>
           <Col xs={7} id="page-content-wrapper">
