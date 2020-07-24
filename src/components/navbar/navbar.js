@@ -25,7 +25,7 @@ class Navbar extends Component {
         <Nav.Item>
           <img src={machineLogo} className="App-logo" alt="logo" />
         </Nav.Item>
-        <Nav.Item>
+        <Nav.Item className="collapse navbar-collapse">
           <img src={more} className="more" alt="logo" />
         </Nav.Item>
         <Nav.Item className="searchbox">
