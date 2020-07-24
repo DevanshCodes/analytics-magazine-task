@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/analytics-magazine-task/static/css/main.14accd8b.chunk.css",
-    "main.js": "/analytics-magazine-task/static/js/main.eb0e6751.chunk.js",
-    "main.js.map": "/analytics-magazine-task/static/js/main.eb0e6751.chunk.js.map",
+    "main.css": "/analytics-magazine-task/static/css/main.3381db4e.chunk.css",
+    "main.js": "/analytics-magazine-task/static/js/main.17a9a97c.chunk.js",
+    "main.js.map": "/analytics-magazine-task/static/js/main.17a9a97c.chunk.js.map",
     "runtime-main.js": "/analytics-magazine-task/static/js/runtime-main.2783c998.js",
     "runtime-main.js.map": "/analytics-magazine-task/static/js/runtime-main.2783c998.js.map",
-    "static/js/2.6dbe8acc.chunk.js": "/analytics-magazine-task/static/js/2.6dbe8acc.chunk.js",
-    "static/js/2.6dbe8acc.chunk.js.map": "/analytics-magazine-task/static/js/2.6dbe8acc.chunk.js.map",
+    "static/js/2.adfdafbc.chunk.js": "/analytics-magazine-task/static/js/2.adfdafbc.chunk.js",
+    "static/js/2.adfdafbc.chunk.js.map": "/analytics-magazine-task/static/js/2.adfdafbc.chunk.js.map",
     "index.html": "/analytics-magazine-task/index.html",
-    "precache-manifest.a1919dd973544121ca63c79e9490a423.js": "/analytics-magazine-task/precache-manifest.a1919dd973544121ca63c79e9490a423.js",
+    "precache-manifest.360cad5451aab6219376acba0e7cc205.js": "/analytics-magazine-task/precache-manifest.360cad5451aab6219376acba0e7cc205.js",
     "service-worker.js": "/analytics-magazine-task/service-worker.js",
-    "static/css/main.14accd8b.chunk.css.map": "/analytics-magazine-task/static/css/main.14accd8b.chunk.css.map",
-    "static/js/2.6dbe8acc.chunk.js.LICENSE.txt": "/analytics-magazine-task/static/js/2.6dbe8acc.chunk.js.LICENSE.txt",
+    "static/css/main.3381db4e.chunk.css.map": "/analytics-magazine-task/static/css/main.3381db4e.chunk.css.map",
+    "static/js/2.adfdafbc.chunk.js.LICENSE.txt": "/analytics-magazine-task/static/js/2.adfdafbc.chunk.js.LICENSE.txt",
     "static/media/headerImage2.png": "/analytics-magazine-task/static/media/headerImage2.a8b9dfd1.png",
     "static/media/logo.svg": "/analytics-magazine-task/static/media/logo.ee7cd8ed.svg",
     "static/media/navbar.scss": "/analytics-magazine-task/static/media/loupe.b2feb1c7.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2783c998.js",
-    "static/js/2.6dbe8acc.chunk.js",
-    "static/css/main.14accd8b.chunk.css",
-    "static/js/main.eb0e6751.chunk.js"
+    "static/js/2.adfdafbc.chunk.js",
+    "static/css/main.3381db4e.chunk.css",
+    "static/js/main.17a9a97c.chunk.js"
   ]
 }
