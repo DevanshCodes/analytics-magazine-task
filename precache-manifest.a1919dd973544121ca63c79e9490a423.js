@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52ae9c4275f8d4d9790dc92fea4bfe76",
+    "revision": "7a1674be221ae74c61063604335389aa",
     "url": "/analytics-magazine-task/index.html"
   },
   {
-    "revision": "55f81485d06f6bc258fa",
-    "url": "/analytics-magazine-task/static/css/main.fd4013c5.chunk.css"
+    "revision": "26c5369952a2018fcd53",
+    "url": "/analytics-magazine-task/static/css/main.14accd8b.chunk.css"
   },
   {
     "revision": "920215e72773e022b477",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/analytics-magazine-task/static/js/2.6dbe8acc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "55f81485d06f6bc258fa",
-    "url": "/analytics-magazine-task/static/js/main.3ea23290.chunk.js"
+    "revision": "26c5369952a2018fcd53",
+    "url": "/analytics-magazine-task/static/js/main.eb0e6751.chunk.js"
   },
   {
     "revision": "84d72fae78c74777f0ad",
