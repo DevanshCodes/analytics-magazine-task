@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import bgvector from "../../bgvector.png";
-import { Card, Button, Tabs, Tab } from "react-bootstrap";
+import { Card, Button, Tabs, Tab, Row, Col } from "react-bootstrap";
 import headerImage2 from "../../headerImage2.png";
 import { Line } from "react-chartjs-2";
+import icon1 from "../../icon1.png";
+import icon2 from "../../icon2.png";
+import icon3 from "../../icon3.png";
+import icon4 from "../../icon4.png";
 import "./main.scss";
 
 class Main extends Component {
@@ -34,104 +38,117 @@ class Main extends Component {
             </Card>
           </div>
         </div>
-        <Card className="LineChartCard">
-          <Card.Body className="lineChartCardBody">
-            <Line
-              data={{
-                labels: [
-                  "Boston",
-                  "Worcester",
-                  "Springfield",
-                  "Lowell",
-                  "Cambridge",
-                  "New Bedford",
-                ],
-                datasets: [
-                  {
-                    label: "Population",
-                    data: [617594, 181045, 153060, 106519, 105162, 95072],
-                    backgroundColor: [
-                      "rgba(255, 99, 132, 0.6)",
-                      "rgba(54, 162, 235, 0.6)",
-                      "rgba(255, 206, 86, 0.6)",
-                      "rgba(75, 192, 192, 0.6)",
-                      "rgba(153, 102, 255, 0.6)",
-                      "rgba(255, 159, 64, 0.6)",
-                      "rgba(255, 99, 132, 0.6)",
-                    ],
-                  },
-                ],
-              }}
-              width={3}
-              height={1}
-              options={{
-                title: {
-                  responsive: true,
-                  maintainAspectRatio : false,
-                  display: "Random Title",
-                  text: "Largest Cities In " + "India",
-                  fontSize: 18,
-                },
-                legend: {
-                  display: "Agra",
-                  position: "bottom",
-                },
-              }}
-            />
-          </Card.Body>
-        </Card>
-        <Card className="LineChartCard">
-          <Card.Body>
-            <div class="row">
-              <h5 className="headingTimeline">Rules</h5>
-              <ul class="timeline">
-                <li>
-                  <div className="heading">ONE ACCOUNT PER PARTICIPATION</div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque scelerisque diam non nisi semper, et elementum lorem
-                    ornare. Maecenas placerat facilisis mollis. Duis sagittis
-                    ligula in sodales vehicula....
-                  </p>
-                </li>
-                <li>
-                  <div className="heading">
-                    NO PRIVATE SHARING OUTSIDE TEAMS
-                  </div>
-                  <p>
-                    Curabitur purus sem, malesuada eu luctus eget, suscipit sed
-                    turpis. Nam pellentesque felis vitae justo accumsan, sed
-                    semper nisi sollicitudin...
-                  </p>
-                </li>
-                <li>
-                  <div className="heading">SUBMISSION LIMITS</div>
-                  <p>
-                    Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed
-                    nulla odio, tincidunt vitae nunc vitae, mollis pharetra
-                    velit. Sed nec tempor nibh...
-                  </p>
-                </li>
-                <li>
-                  <div className="heading">COMPETITION TIMELINE</div>
-                  <p>
-                    Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed
-                    nulla odio, tincidunt vitae nunc vitae, mollis pharetra
-                    velit. Sed nec tempor nibh...
-                  </p>
-                </li>
-                <li>
-                  <div className="heading">COMPETITION SPECIFIC TERMS</div>
-                  <p>
-                    Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed
-                    nulla odio, tincidunt vitae nunc vitae, mollis pharetra
-                    velit. Sed nec tempor nibh...
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </Card.Body>
-        </Card>
+        <div className="mainbottom">
+          <div className="sideNavMain">
+            <img src={icon1} className="image"></img>
+            <img src={icon2} className="image active"></img>
+            <img src={icon3} className="image"></img>
+            <img src={icon4} className="image"></img>
+          </div>
+          <div className="mainFurther">
+            <Card className="LineChartCard">
+              <Card.Body className="lineChartCardBody">
+                <div className="canvasContainer">
+                  <Line
+                    className="lineChart"
+                    data={{
+                      labels: [
+                        "Boston",
+                        "Worcester",
+                        "Springfield",
+                        "Lowell",
+                        "Cambridge",
+                        "New Bedford",
+                      ],
+                      datasets: [
+                        {
+                          label: "Population",
+                          data: [617594, 181045, 153060, 106519, 105162, 95072],
+                          backgroundColor: [
+                            "rgba(255, 99, 132, 0.6)",
+                            "rgba(54, 162, 235, 0.6)",
+                            "rgba(255, 206, 86, 0.6)",
+                            "rgba(75, 192, 192, 0.6)",
+                            "rgba(153, 102, 255, 0.6)",
+                            "rgba(255, 159, 64, 0.6)",
+                            "rgba(255, 99, 132, 0.6)",
+                          ],
+                        },
+                      ],
+                    }}
+                    options={{
+                      title: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        display: "Random Title",
+                        text: "Largest Cities In " + "India",
+                        fontSize: 18,
+                      },
+                      legend: {
+                        display: "Agra",
+                        position: "bottom",
+                      },
+                    }}
+                  />
+                </div>
+              </Card.Body>
+            </Card>
+            <Card className="LineChartCard">
+              <Card.Body>
+                <div class="row">
+                  <h5 className="headingTimeline">Rules</h5>
+                  <ul class="timeline">
+                    <li>
+                      <div className="heading">
+                        ONE ACCOUNT PER PARTICIPATION
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Quisque scelerisque diam non nisi semper, et elementum
+                        lorem ornare. Maecenas placerat facilisis mollis. Duis
+                        sagittis ligula in sodales vehicula....
+                      </p>
+                    </li>
+                    <li>
+                      <div className="heading">
+                        NO PRIVATE SHARING OUTSIDE TEAMS
+                      </div>
+                      <p>
+                        Curabitur purus sem, malesuada eu luctus eget, suscipit
+                        sed turpis. Nam pellentesque felis vitae justo accumsan,
+                        sed semper nisi sollicitudin...
+                      </p>
+                    </li>
+                    <li>
+                      <div className="heading">SUBMISSION LIMITS</div>
+                      <p>
+                        Fusce ullamcorper ligula sit amet quam accumsan aliquet.
+                        Sed nulla odio, tincidunt vitae nunc vitae, mollis
+                        pharetra velit. Sed nec tempor nibh...
+                      </p>
+                    </li>
+                    <li>
+                      <div className="heading">COMPETITION TIMELINE</div>
+                      <p>
+                        Fusce ullamcorper ligula sit amet quam accumsan aliquet.
+                        Sed nulla odio, tincidunt vitae nunc vitae, mollis
+                        pharetra velit. Sed nec tempor nibh...
+                      </p>
+                    </li>
+                    <li>
+                      <div className="heading">COMPETITION SPECIFIC TERMS</div>
+                      <p>
+                        Fusce ullamcorper ligula sit amet quam accumsan aliquet.
+                        Sed nulla odio, tincidunt vitae nunc vitae, mollis
+                        pharetra velit. Sed nec tempor nibh...
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
       </div>
     );
   }

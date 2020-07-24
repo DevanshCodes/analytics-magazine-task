@@ -1,8 +1,30 @@
 .LineChartCard {
-  width: 53vw;
+  width: 51vw;
   margin: 40px 0 30px 25px;
 }
-
+.canvasContainer {
+  height: 60%;
+  width: 100%;
+}
+.mainbottom{
+  display: flex;
+}
+.sideNavMain {
+  cursor: pointer;
+  margin: 40px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  .image {
+    margin-bottom: 40px;
+    width: 1.4vw;
+  }
+  .image.active{
+    width: 1.4vw !important;
+    border-radius: 3px;
+    padding: 4px 4px;
+    background-color: #fa375a
+  }
+}
 @media only screen and (max-width: 900px) {
   .headerImage {
     margin-left: 10px !important;
@@ -11,6 +33,22 @@
     background-size: 350px 100px !important;
     .nav-tabs .nav-link {
       margin: -10px 0px 20px 1.5rem !important;
+    }
+  }
+  .sideNavMain {
+    cursor: pointer;
+    margin: 70px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    .image {
+      margin-bottom: 40px;
+      width: 4vw;
+    }
+    .image.active{
+      width: 5vw !important;
+      border-radius: 3px;
+      padding: 4px 4px;
+      background-color: #fa375a
     }
   }
   .tabsCard {
@@ -25,15 +63,18 @@
     }
   }
   .LineChartCard {
-    width: 80vw;
+    width: 71vw;
     margin: 70px 0 30px 25px;
   }
   .LineChartCardBody {
     height: 50vw;
   }
 }
+.mainFurther{
+  margin-left: 0px;
+}
 .headerImage {
-  margin: 30px 20px 0 20px;
+  margin: 30px 20px 0 0px;
   background: url("../../bgvector.png");
   background-repeat: no-repeat;
   height: 18vw;
